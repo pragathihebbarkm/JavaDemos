@@ -22,6 +22,7 @@ public class operatorsPrg {
 		result=--a;
 		result=a--;
 		//relational(<,>,<=,>=)
+		
 		if(a>b)
 			System.out.println("a is bigger");
 		//logical(|| , &&)
