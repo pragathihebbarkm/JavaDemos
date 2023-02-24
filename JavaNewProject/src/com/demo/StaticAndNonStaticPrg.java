@@ -7,7 +7,9 @@ public class StaticAndNonStaticPrg {
 	}
 public static void main(String[] args) {
 	System.out.println("this is from main method");
-	StaticAndNonStaticPrg obj=new StaticAndNonStaticPrg();
+	StaticAndNonStaticPrg obj1=new StaticAndNonStaticPrg();
+	StaticAndNonStaticPrg obj2=new StaticAndNonStaticPrg();
+	StaticAndNonStaticPrg obj3=new StaticAndNonStaticPrg();
 }
 
 static {
