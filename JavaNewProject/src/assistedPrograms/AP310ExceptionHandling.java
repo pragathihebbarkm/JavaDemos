@@ -1,9 +1,8 @@
-package com.demo;
+package assistedPrograms;
 
 import java.util.Scanner;
 
-public class ExceptionDemo {
-
+public class AP310ExceptionHandling {
 	public static void main(String[] args) {
 		
 		divideByZeroDemo();
@@ -50,7 +49,8 @@ public class ExceptionDemo {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
+		finally {
+			System.out.println("values of a and b are:"+a+" and "+b);
+		}
 	}
-	
-	
 }

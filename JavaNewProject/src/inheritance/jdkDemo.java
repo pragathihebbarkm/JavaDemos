@@ -27,9 +27,15 @@ class JDK7 extends JDK6{
 
 class JDK8 extends JDK7{
 	public JDK8() {
+		this(10);
 		System.out.println("installing JDK8");
+	}
+	
+	public JDK8(int a) {
+		System.out.println("value of a is "+a);
 	}
 	void f3() {
 		System.out.println("method of jdk8");
 	}
+	
 }

@@ -1,6 +1,7 @@
-package inheritance;
+package assistedPrograms;
 
-public class VehicleDemo {
+public class AP314OOPSInheritanceDemo {
+
 	public static void main(String[] args) {
 		Car car = new Car();
 		System.out.println(car.fuel());
@@ -21,7 +22,6 @@ class Vehicle{
 
 class Bus extends Vehicle{
 	String fuel() {
-		super.fuel();
 		return "CNG";
 	}
 }

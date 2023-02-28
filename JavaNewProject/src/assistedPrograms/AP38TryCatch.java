@@ -1,8 +1,8 @@
-package com.demo;
+package assistedPrograms;
 
 import java.util.Scanner;
 
-public class ExceptionDemo {
+public class AP38TryCatch {
 
 	public static void main(String[] args) {
 		
@@ -51,6 +51,5 @@ public class ExceptionDemo {
 			System.out.println(e.getMessage());
 		}
 	}
-	
 	
 }
