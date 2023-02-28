@@ -12,11 +12,11 @@ public class StaticAndNonStaticPrg {
 		StaticAndNonStaticPrg obj2=new StaticAndNonStaticPrg();
 		StaticAndNonStaticPrg obj3=new StaticAndNonStaticPrg();
 		
-		Car mycar = new Car();
+		CarEncapsulation mycar = new CarEncapsulation();
 		
 		System.out.println(mycar.numOfWheels);
 		System.out.println(mycar.color);
-		System.out.println(Car.manufacturer);
+		System.out.println(CarEncapsulation.manufacturer);
 	}
 
 	static {
