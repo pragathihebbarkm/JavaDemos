@@ -7,6 +7,7 @@ public class InnerClassDEmo2 {
 		car.start();
 		
 		Car.MusicSystems ms = car.new MusicSystems(3);
+		ms.displayDetails();
 		ms.playSomeMusic();
 	}
 }
@@ -31,10 +32,25 @@ class Car {
 			this.numOfChannels = numOfChannels;
 		}
 		
-		void playSomeMusic() {
+		void displayDetails() {
 			System.out.println("model of car is "+model);
 			System.out.println("color of car is "+Car.this.color);
 			System.out.println("number of music channels in music system is"+this.numOfChannels);
+		}
+		
+		void playSomeMusic() {
+			System.out.println("playing music");
+			
+			class Channel {
+				int frequency;
+				void getCurrentPlayingSong() {
+					System.out.println("this is the song being played");
+				}
+				
+			}
+			Channel c = new Channel();
+			c.getCurrentPlayingSong();
+		
 		}
 	}
 }
