@@ -6,6 +6,9 @@ public class GarbageCollectionDemo {
 		for(int i =0; i< 100000; i++) {
 			new House(i);
 		}
+		
+		//we can request gc to run
+		//System.gc();
 	}
 }
 
