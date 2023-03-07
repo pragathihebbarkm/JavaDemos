@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphismAndSorting;
 
 public class InnerClassDEmo2 {
 	public static void main(String[] args) {

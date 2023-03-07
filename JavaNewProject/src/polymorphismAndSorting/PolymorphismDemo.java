@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphismAndSorting;
 
 public class PolymorphismDemo {
 	
